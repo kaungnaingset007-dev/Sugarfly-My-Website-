@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+  background-color: #faf9f7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+}
+
+#site-header {
+    font-family:'Lucida Sans', sans-serif ;
+    color: deeppink;
+    margin-left: 40px;
+}
+#stars {
+  width: 50px; height: auto;
+  margin-left: 200px;
+}
+#short-intro {
+    font-family:'Lucida Sans', sans-serif ;
+    color: deeppink;
+    margin-left: 40px;
+}
+#slogan {
+    font-family:'Lucida Sans', sans-serif ; 
+    color: darksalmon;
+    margin-left: 350px;
+}
+#stars2 {
+  width: 40px; height: auto;
+  margin-left: 150px;
+}
+#logo {
+    width: 380px; height: auto;
+    margin-left: 775px;
+    margin-top: -80px;
+}
+#stars3 {
+  width: 40px; height: auto;
+  margin-left: 150px;
+}
+#about-us {
+    font-family:'Lucida Sans', sans-serif ;
+    color: darksalmon;
+    margin-left: 40px;
+}
+#story {
+    font-family:'Lucida Sans', sans-serif ;
+    color: rgb(116, 72, 58);
+    margin-left: 40px;
+}
+#video {
+  margin-left: 300px;
+}
+#menu {
+    font-family:'Lucida Sans', sans-serif ;
+    color: darksalmon;
+    margin-left: 20px;
+}
+#menu-card {
+    width: 400px; height: auto;
+    margin-left: 75px;
+}
+#best {
+    width: 288px; height: auto;
+    margin-left: 30px;
+}
+#best2 {
+  width: 288px; height:auto;
+  margin-left: 40px;
+}
+.contact-box {
+  max-width: 400px;
+  margin-left: 400px;
+  padding: 24px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+.contact-box h2 {
+  margin-top: 0;
+}
+
+.contact-box label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff4ea0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-box button:hover {
+  background-color: #ff4ea0;
+}
